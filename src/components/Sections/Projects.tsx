@@ -12,6 +12,7 @@ const projects = [
     tech: ["Next.js", "Node", "react", "Three.js"],
     color: "#BFFF00",
     image: "/p1.jpg",
+    link: "https://peacewebgsap.netlify.app/",
   },
   {
     id: "02",
@@ -20,6 +21,7 @@ const projects = [
     tech: ["Three.js", "GSAP", "MQTT", "React"],
     color: "#00E0FF",
     image: "/p2.jpg",
+    link: "fpsdashboard.netlify.app",
   },
   {
     id: "03",
@@ -28,6 +30,7 @@ const projects = [
     tech: ["React Native", "OpenAI", "Node.js"],
     color: "#A855F7",
     image: "/p3.jpg",
+    link: "dream-share-psi.vercel.app",
   },
   {
     id: "04",
@@ -36,6 +39,7 @@ const projects = [
     tech: ["OpenCV", "Raspberry Pi", "Firebase"],
     color: "#F97316",
     image: "/p4.jpg",
+    link: "https://partsplaz-ademo.vercel.app/",
   },
   {
     id: "05",
@@ -44,6 +48,7 @@ const projects = [
     tech: ["Figma"],
     color: "#EF4444",
     image: "/p5.jpg",
+    link: "https://www.figma.com/proto/1dHYDovagxoAYpVEG1qij4/partsplaza?page-id=109%3A30&node-id=191-144&viewport=-1007%2C-752%2C0.23&t=Acqh0nubr8sjsZeB-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=215%3A212",
   },
 ];
 
@@ -72,9 +77,15 @@ export default function Projects() {
               >
                 <div className="flex items-center gap-6 mb-4">
                   <span className="text-secondary font-mono text-sm">{project.id}</span>
-                  <h4 className={`text-2xl md:text-3xl font-bold transition-colors duration-300 ${activeProject === index ? "text-accent" : "text-white"
-                    }`}>
-                    {project.title}
+                  <h4 className="text-2xl md:text-3xl font-bold">
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className={`transition-colors duration-300 ${activeProject === index ? "text-accent" : "text-white"}`}
+                    >
+                      {project.title}
+                    </a>
                   </h4>
                 </div>
 
