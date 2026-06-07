@@ -46,7 +46,7 @@ export default function About() {
             Bridging the gap between <span className="text-secondary italic">Engineering</span> and <span className="text-white underline decoration-accent">Creative Design</span>.
           </h3>
           <p className="text-secondary text-lg md:text-xl leading-relaxed mb-12">
-            I am a CSE Engineering student, creative developer, and UI/UX designer who loves building modern and interactive digital experiences. I create smooth parallax websites, animated interfaces, and user-friendly designs that feel clean, engaging, and visually impressive. My work also includes web development, IoT projects, and creative frontend experiences using modern technologies. I enjoy combining design and technology to create websites and applications that not only work well but also look beautiful and feel smooth to use.
+            I am a CSE Engineering student, Web developer, and UI/UX designer who loves building modern and interactive digital experiences. I create smooth parallax websites, animated interfaces, and user-friendly designs that feel clean, engaging, and visually impressive. My work also includes web development and creative frontend experiences using modern technologies. I enjoy combining design and technology to create websites and applications that not only work well but also look beautiful and feel smooth to use.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
