@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import { Cpu, Globe, Rocket } from "lucide-react";
 
 const stats = [
-  { icon: Cpu, label: "Projects Built", value: "20+" },
+  { icon: Cpu, label: "Projects Built", value: "10+" },
   { icon: Globe, label: "Hackathons", value: "5" },
-  { icon: Rocket, label: "Experience", value: "2 Years" },
+  { icon: Rocket, label: "Experience", value: "1 Years" },
 ];
 
 export default function About() {
