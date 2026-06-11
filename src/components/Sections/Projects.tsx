@@ -30,7 +30,7 @@ const projects = [
     tech: ["React Native", "OpenAI", "Node.js"],
     color: "#A855F7",
     image: "/p3.jpg",
-    link: "dream-share-psi.vercel.app",
+    link: "https://dreamogram-three.vercel.app/",
   },
   {
     id: "04",
